@@ -1,0 +1,20 @@
+PODS:
+  - TGPassportKit (1.1.0)
+  - VK-ios-sdk (1.6.2)
+
+DEPENDENCIES:
+  - TGPassportKit
+  - VK-ios-sdk
+
+SPEC REPOS:
+  trunk:
+    - TGPassportKit
+    - VK-ios-sdk
+
+SPEC CHECKSUMS:
+  TGPassportKit: d2a31548c8c642b6752b662677d8df3ae7fcc825
+  VK-ios-sdk: 5bcf00a2014a7323f98db9328b603d4f96635caa
+
+PODFILE CHECKSUM: dcaa4d2b6f67cdbbc2df695b2786d062696fdd4d
+
+COCOAPODS: 1.11.2

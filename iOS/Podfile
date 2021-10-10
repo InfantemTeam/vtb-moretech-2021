@@ -1,0 +1,6 @@
+target 'VTB' do
+  use_frameworks!
+
+  pod 'TGPassportKit'
+  pod 'VK-ios-sdk'
+end
