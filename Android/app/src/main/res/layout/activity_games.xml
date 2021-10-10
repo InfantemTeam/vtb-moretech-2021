@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#172030"
+    tools:context=".GamesActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="464dp"
+        android:layout_height="131dp"
+        android:src="@drawable/games_header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-6dp" />
+    <!-- MiniGame 1 -->
+
+    <RelativeLayout
+        android:id="@+id/minigame_1"
+        android:layout_width="fill_parent"
+        android:layout_height="199dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#1B2B46"
+        android:clipToOutline="true"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.059">
+        <!-- Label'n'Progress -->
+        <RelativeLayout
+            android:id="@+id/label_n_pro_1"
+            android:layout_width="fill_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#172030"
+            android:clipToOutline="true">
+
+            <TextView
+                android:id="@+id/stock_split_text"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="195dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/roboto_mono_thin"
+                android:gravity="center_vertical"
+                android:letterSpacing="0.13"
+                android:text="StockSplit"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/stonks_split" />
+
+        <Button
+            android:id="@+id/trans"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/minigame_w"
+        android:layout_width="fill_parent"
+        android:layout_height="199dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#172030"
+        android:clipToOutline="true"
+        android:elevation="10px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minigame_1"
+        app:layout_constraintVertical_bias="0.251">
+
+        <RelativeLayout
+            android:id="@+id/label_n_pro"
+            android:layout_width="fill_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#172030"
+            android:clipToOutline="true">
+
+            <TextView
+                android:id="@+id/stonks_snake_text"
+                android:layout_width="206dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="170dp"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/roboto_mono_thin"
+                android:gravity="center_vertical"
+                android:letterSpacing="0.13"
+                android:text="StonksSnake"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/home_button_pressed"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        android:background="#172030"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minigame_w" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

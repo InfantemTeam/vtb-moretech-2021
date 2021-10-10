@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TEST</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Нверный логин</string>
+    <string name="invalid_password">Пароль должен содержать более 5 символов</string>
+    <string name="login_failed">"Неверный логин/пароль"</string>
+    <string name="f_letter">Ф</string>
+    <string name="header_welcome">Здравствуйте, в этом приложении мы разрушим все ваши страхи и стереотипы об инвестициях! Нам необходимо узнать немного информации о вас, чтобы предложить наши лучшие решения!</string>
+    <string name="header_w2">Выберите свой уровень образования:</string>
+    <string name="header_w3">Выберите свой уровень дохода:</string>
+    <string name="header_w4">Выберите свою возрастную категорию:</string>
+    <string name="butn_confirm">Далее</string>
+    <string name="title_activity_stonks_stocks">StonksStocks</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

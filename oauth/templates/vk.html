@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			let xhr = new XMLHttpRequest();
+			xhr.open('POST', {{ url_for(api_oauth_vk) }});
+			xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+			xhr.send(location.hash.substr(1));
+		</script>
+	</head>
+</html>
+
+<!-- by InfantemTeam <hackathon+moretech@sdore.me>, 2021
+   www.sdore.me -->
